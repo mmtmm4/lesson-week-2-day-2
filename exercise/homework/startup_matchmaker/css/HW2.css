@@ -1,0 +1,144 @@
+.bodyclass{
+  margin: 0;
+  padding: 0;
+  background-color: balck;
+}
+.header{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.header h1{
+  margin: 0;
+  padding: 10px 0px 0px 10px;
+  color: #dd0000;
+  text-align: left;
+}
+
+.nav{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  text-align:right;
+  color: white;
+  text-decoration-style:
+}
+
+.nav ul{
+  margin: 0;
+  padding: 0px 0px 10px 0px;
+  border-bottom-color: #dd0000;
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+}
+
+.nav li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.main{
+  padding: 0;
+  margin: 0;
+  width:100%;
+  height:500px;
+  background-image: url("../images/coworking.jpg");
+  background-size: cover;
+}
+.main h1{
+  margin: 0;
+  padding: 10px;;
+  background-color: #d9d9d9;
+  text-align: center;
+}
+
+.main div{
+  padding: 30px;
+  background-color: whiteSmoke;
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  width: 250px;
+  height: 250px;
+  opacity: 0.8;
+  filter: alpha(opacity=50);
+}
+
+.main h3{
+  padding: 15px;
+  text-align: center;
+  background-color: #dd0000;
+  border-radius: 5px;
+}
+
+.CFF{
+  background-color: white;
+}
+
+.CFF table {
+  border-collapse: collapse;
+  width: 100%;
+  padding:0px;
+  margin: 5px;
+
+}
+
+.CFF th, td {
+  padding: 1px 15px 0px 15px;
+  margin: 10px;
+  text-align: left;
+  border-right: 1px solid #ddd;
+}
+
+.CFF h3, p{
+  padding: 5px;
+  margin: 0;
+}
+.button{
+  display: inline-block;
+ padding: 10px 15px;
+ font-size: 16px;
+ cursor: pointer;
+ text-align: center;
+ text-decoration: none;
+ outline: none;
+ color: black;
+ background-color: #b9b9b996;
+ border: none;
+ border-radius: 15px;
+ box-shadow: 0 2px #999;
+}
+.button:active {
+
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.redbutton{
+ display: inline-block;
+ padding: 15px 25px;
+ font-size: 24px;
+ cursor: pointer;
+ text-align: center;
+ text-decoration: none;
+ outline: none;
+ color: black;
+ background-color: #dd0000  ;
+ border: none;
+ border-radius: 15px;
+ box-shadow: 0 2px #999;
+}
+.redbutton:active {
+
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+footer{
+  padding: 5px;
+  margin: 0px;
+  height: 35px;
+  background-color: black;
+  color: white;
+
+}
